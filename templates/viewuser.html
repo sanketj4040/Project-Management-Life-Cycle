@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <center>
+    <table >
+        <thead calss "thead-dark">
+        <tr>
+            <th> name </th>
+            <th> number </th>
+        </tr>
+        </thead>
+        <body>
+    {% for us in userdata%}
+        <tr>
+            <td>{{ us.name}}</td>
+            <td>{{us.number}}</td>
+        </tr>
+    {%endfor%}
+        </tbody>
+    </table> </center>
+</html>

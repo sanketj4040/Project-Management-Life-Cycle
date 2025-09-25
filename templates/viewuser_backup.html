@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <center>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for us in userdata %}
+                    <tr>
+                        <td>{{ us.name }}</td>
+                        <td>{{ us.number }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </center>
+    </body>
+</html>
