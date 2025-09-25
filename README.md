@@ -263,6 +263,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Version**: 1.0.0  
-**Last Updated**: January 2025  
-**Developed by**: Rajvardhan Chavan
+**Version**: 1.0.1  
+**Last Updated**: Oct 2025  
+**Developed by**: Sanket Jadhav
